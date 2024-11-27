@@ -1,82 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<Version>7.0.1</Version>
+    <Version>9.0.1</Version>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
-		<PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
-	</ItemGroup>
-	<ItemGroup>
-		<AdditionalFiles Include="Resources\NLT 1 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NLT 1 John.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Kings.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Peter.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Samuel.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NLT 1 Timothy.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Chronicles.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Corinthians.json" />
-		<AdditionalFiles Include="Resources\NLT 2 John.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Kings.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Peter.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Samuel.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Thessalonians.json" />
-		<AdditionalFiles Include="Resources\NLT 2 Timothy.json" />
-		<AdditionalFiles Include="Resources\NLT 3 John.json" />
-		<AdditionalFiles Include="Resources\NLT Acts.json" />
-		<AdditionalFiles Include="Resources\NLT Amos.json" />
-		<AdditionalFiles Include="Resources\NLT Colossians.json" />
-		<AdditionalFiles Include="Resources\NLT Daniel.json" />
-		<AdditionalFiles Include="Resources\NLT Deuteronomy.json" />
-		<AdditionalFiles Include="Resources\NLT Ecclesiastes.json" />
-		<AdditionalFiles Include="Resources\NLT Ephesians.json" />
-		<AdditionalFiles Include="Resources\NLT Esther.json" />
-		<AdditionalFiles Include="Resources\NLT Exodus.json" />
-		<AdditionalFiles Include="Resources\NLT Ezekiel.json" />
-		<AdditionalFiles Include="Resources\NLT Ezra.json" />
-		<AdditionalFiles Include="Resources\NLT Galatians.json" />
-		<AdditionalFiles Include="Resources\NLT Genesis.json" />
-		<AdditionalFiles Include="Resources\NLT Habakkuk.json" />
-		<AdditionalFiles Include="Resources\NLT Haggai.json" />
-		<AdditionalFiles Include="Resources\NLT Hebrews.json" />
-		<AdditionalFiles Include="Resources\NLT Hosea.json" />
-		<AdditionalFiles Include="Resources\NLT Isaiah.json" />
-		<AdditionalFiles Include="Resources\NLT James.json" />
-		<AdditionalFiles Include="Resources\NLT Jeremiah.json" />
-		<AdditionalFiles Include="Resources\NLT Job.json" />
-		<AdditionalFiles Include="Resources\NLT Joel.json" />
-		<AdditionalFiles Include="Resources\NLT John.json" />
-		<AdditionalFiles Include="Resources\NLT Jonah.json" />
-		<AdditionalFiles Include="Resources\NLT Joshua.json" />
-		<AdditionalFiles Include="Resources\NLT Jude.json" />
-		<AdditionalFiles Include="Resources\NLT Judges.json" />
-		<AdditionalFiles Include="Resources\NLT Lamentations.json" />
-		<AdditionalFiles Include="Resources\NLT Leviticus.json" />
-		<AdditionalFiles Include="Resources\NLT Luke.json" />
-		<AdditionalFiles Include="Resources\NLT Malachi.json" />
-		<AdditionalFiles Include="Resources\NLT Mark.json" />
-		<AdditionalFiles Include="Resources\NLT Matthew.json" />
-		<AdditionalFiles Include="Resources\NLT Micah.json" />
-		<AdditionalFiles Include="Resources\NLT Nahum.json" />
-		<AdditionalFiles Include="Resources\NLT Nehemiah.json" />
-		<AdditionalFiles Include="Resources\NLT Numbers.json" />
-		<AdditionalFiles Include="Resources\NLT Obadiah.json" />
-		<AdditionalFiles Include="Resources\NLT Philemon.json" />
-		<AdditionalFiles Include="Resources\NLT Philippians.json" />
-		<AdditionalFiles Include="Resources\NLT Proverbs.json" />
-		<AdditionalFiles Include="Resources\NLT Psalm.json" />
-		<AdditionalFiles Include="Resources\NLT Revelation.json" />
-		<AdditionalFiles Include="Resources\NLT Romans.json" />
-		<AdditionalFiles Include="Resources\NLT Ruth.json" />
-		<AdditionalFiles Include="Resources\NLT Song of Solomon.json" />
-		<AdditionalFiles Include="Resources\NLT Titus.json" />
-		<AdditionalFiles Include="Resources\NLT Zechariah.json" />
-		<AdditionalFiles Include="Resources\NLT Zephaniah.json" />
-	</ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
+    <PackageReference Include="JsonDeserializeResourceSourceGenerator" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Resources\NLT 1 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NLT 1 John.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Kings.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Peter.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Samuel.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NLT 1 Timothy.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Chronicles.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Corinthians.json" />
+    <AdditionalFiles Include="Resources\NLT 2 John.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Kings.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Peter.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Samuel.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Thessalonians.json" />
+    <AdditionalFiles Include="Resources\NLT 2 Timothy.json" />
+    <AdditionalFiles Include="Resources\NLT 3 John.json" />
+    <AdditionalFiles Include="Resources\NLT Acts.json" />
+    <AdditionalFiles Include="Resources\NLT Amos.json" />
+    <AdditionalFiles Include="Resources\NLT Colossians.json" />
+    <AdditionalFiles Include="Resources\NLT Daniel.json" />
+    <AdditionalFiles Include="Resources\NLT Deuteronomy.json" />
+    <AdditionalFiles Include="Resources\NLT Ecclesiastes.json" />
+    <AdditionalFiles Include="Resources\NLT Ephesians.json" />
+    <AdditionalFiles Include="Resources\NLT Esther.json" />
+    <AdditionalFiles Include="Resources\NLT Exodus.json" />
+    <AdditionalFiles Include="Resources\NLT Ezekiel.json" />
+    <AdditionalFiles Include="Resources\NLT Ezra.json" />
+    <AdditionalFiles Include="Resources\NLT Galatians.json" />
+    <AdditionalFiles Include="Resources\NLT Genesis.json" />
+    <AdditionalFiles Include="Resources\NLT Habakkuk.json" />
+    <AdditionalFiles Include="Resources\NLT Haggai.json" />
+    <AdditionalFiles Include="Resources\NLT Hebrews.json" />
+    <AdditionalFiles Include="Resources\NLT Hosea.json" />
+    <AdditionalFiles Include="Resources\NLT Isaiah.json" />
+    <AdditionalFiles Include="Resources\NLT James.json" />
+    <AdditionalFiles Include="Resources\NLT Jeremiah.json" />
+    <AdditionalFiles Include="Resources\NLT Job.json" />
+    <AdditionalFiles Include="Resources\NLT Joel.json" />
+    <AdditionalFiles Include="Resources\NLT John.json" />
+    <AdditionalFiles Include="Resources\NLT Jonah.json" />
+    <AdditionalFiles Include="Resources\NLT Joshua.json" />
+    <AdditionalFiles Include="Resources\NLT Jude.json" />
+    <AdditionalFiles Include="Resources\NLT Judges.json" />
+    <AdditionalFiles Include="Resources\NLT Lamentations.json" />
+    <AdditionalFiles Include="Resources\NLT Leviticus.json" />
+    <AdditionalFiles Include="Resources\NLT Luke.json" />
+    <AdditionalFiles Include="Resources\NLT Malachi.json" />
+    <AdditionalFiles Include="Resources\NLT Mark.json" />
+    <AdditionalFiles Include="Resources\NLT Matthew.json" />
+    <AdditionalFiles Include="Resources\NLT Micah.json" />
+    <AdditionalFiles Include="Resources\NLT Nahum.json" />
+    <AdditionalFiles Include="Resources\NLT Nehemiah.json" />
+    <AdditionalFiles Include="Resources\NLT Numbers.json" />
+    <AdditionalFiles Include="Resources\NLT Obadiah.json" />
+    <AdditionalFiles Include="Resources\NLT Philemon.json" />
+    <AdditionalFiles Include="Resources\NLT Philippians.json" />
+    <AdditionalFiles Include="Resources\NLT Proverbs.json" />
+    <AdditionalFiles Include="Resources\NLT Psalm.json" />
+    <AdditionalFiles Include="Resources\NLT Revelation.json" />
+    <AdditionalFiles Include="Resources\NLT Romans.json" />
+    <AdditionalFiles Include="Resources\NLT Ruth.json" />
+    <AdditionalFiles Include="Resources\NLT Song of Solomon.json" />
+    <AdditionalFiles Include="Resources\NLT Titus.json" />
+    <AdditionalFiles Include="Resources\NLT Zechariah.json" />
+    <AdditionalFiles Include="Resources\NLT Zephaniah.json" />
+  </ItemGroup>
 </Project>
